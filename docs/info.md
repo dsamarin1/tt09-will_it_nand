@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Yo, it's just a bunch of NANDs.
 
 ## How to test
 
-Explain how to use your project
+Be a man, use your hand to connect up your NAND.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Put it in the sand, like it's silicon, because you're a silly con.
