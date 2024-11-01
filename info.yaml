@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Will It Nand?"      # Project title
+  author:       "Daniel Samarin"      # Your name
+  discord:      "tense_future"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A bunch of nand gates to test the tool chain... for now."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,20 +15,20 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "NAND1a"
+  ui[1]: "NAND1b"
+  ui[2]: "NAND2a"
+  ui[3]: "NAND2b"
+  ui[4]: "NAND3a"
+  ui[5]: "NAND3b"
+  ui[6]: "NAND4a"
+  ui[7]: "NAND4b"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "NAND1out"
+  uo[1]: "NAND2out"
+  uo[2]: "NAND3out"
+  uo[3]: "NAND4out"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
